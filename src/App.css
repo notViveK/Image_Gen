@@ -1,0 +1,136 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(22, 9, 42);
+}
+h2{
+  color: rgb(226, 222, 216);
+}
+.my-button{
+  background-color: black;
+  color: white;
+}
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-input {
+  width: 300px;
+  height: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+.result-image {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.my-btn{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rotate-button {
+
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0994ba;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rotate-button:hover {
+  background-color: #73c6e7;
+}
+.brightness-slider {
+  margin-top: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 5px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background-color: #49a8d9;
+}
+
+.slider::-moz-range-thumb:hover {
+  background-color: #49a8d9;
+}
+.speech-recognition-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.speech-recognition-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.speech-recognition-button.listening {
+  background-color: #1bf802;
+  color: #fff;
+}
+
+.speech-recognition-button:hover {
+  background-color: #e8c517;
+}
